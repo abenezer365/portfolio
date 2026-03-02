@@ -6,13 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>Abenezer Zewge | Full-Stack Developer & Cloud Engineer</title>
+    <title>Abenezer Zewge | FullStack Developer & Cloud Engineer</title>
 
     <meta name="description"
-        content="Abenezer Zewge – Full-Stack Developer & Cloud Engineer. Building scalable, secure, and high-performance web applications with MERN, AWS, and DevOps.">
+        content="Abenezer Zewge | FullStack Developer & Cloud Engineer. Building scalable, secure, and high-performance web applications with MERN, AWS, and DevOps.">
 
     <meta name="keywords"
-        content="Abenezer Zewge, Full Stack Developer Ethiopia, AWS Engineer, MERN Stack, React Developer, Node.js, Cloud Engineer, DevOps, Software Engineer, Portfolio">
+        content="Abenezer Zewge, Abenezer, Abenether, Full Stack Developer Ethiopia, AWS Engineer, MERN Stack, React Developer, Node.js, Cloud Engineer, DevOps, Software Engineer, Portfolio">
 
     <meta name="author" content="Abenezer Zewge">
     <meta name="language" content="en">
@@ -46,9 +46,9 @@
     <!-- ===================== OPEN GRAPH (FACEBOOK / TELEGRAM / WHATSAPP) ===================== -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://abenether.com/">
-    <meta property="og:title" content="Abenezer Zewge | Full-Stack Developer & Cloud Engineer">
+    <meta property="og:title" content="Abenezer Zewge | FullStack Developer & Cloud Engineer">
     <meta property="og:description"
-        content="Explore projects, services, and cloud solutions by Abenezer Zewge. Building enterprise-grade web platforms.">
+        content="Explore projects, services, and cloud solutions by Abenezer Zewge. Building enterprise grade web platforms.">
 
     <!-- IMPORTANT: This image controls Telegram/WhatsApp thumbnail -->
     <meta property="og:image" content="https://abenether.com/assets/img/og/og-cover.jpg">
@@ -63,7 +63,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://abenether.com/">
     <meta name="twitter:title"
-        content="Abenezer Zewge | Full-Stack Developer & Cloud Engineer. Building scalable, secure, and high-performance web applications with MERN, AWS, and DevOps.">
+        content="Abenezer Zewge | Full-Stack Developer & Cloud Engineer. Building scalable, secure, and high performance web applications with MERN, AWS, and DevOps.">
     <meta name="twitter:description" content="Full-stack developer & cloud engineer creating scalable web platforms.">
 
     <meta name="twitter:image" content="https://abenether.com/assets/img/og/og-cover.jpg">
@@ -212,8 +212,8 @@
             <div class="wt-offcanvas-2-left left-box">
                 <div class="wt-offcanvas-2-left-wrap d-flex justify-content-between align-items-center">
                     <div class="wtoffcanvas__logo">
-                        <a class="logo-1" href="index.html"><img src="assets/img/logo/mobile-logo.png" alt=""
-                                loading="lazy"></a>
+                        <a class="logo-1" href="index.html"><img src="assets/img/logo/mobile-logo.png"
+                                alt="Abenezer Zewge Mobile Logo" loading="lazy"></a>
                     </div>
                     <div class="wt-offcanvas-2-close d-md-none text-end">
                         <button class="wt-offcanvas-2-close-btn wt-offcanvas-2-close-btn">
@@ -1406,6 +1406,16 @@
     <script src="assets/js/slider-active.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/wt-cursor.js"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker
+                    .register("/service-worker.js")
+                    .then((reg) => console.log("Service Worker Registered!", reg))
+                    .catch((err) => console.log("Service Worker Registration Failed!", err));
+            });
+        }
+    </script>
 </body>
 
 </html>
