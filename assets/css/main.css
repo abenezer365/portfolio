@@ -5148,6 +5148,14 @@ body.wt-magic-cursor #magic-cursor {
 /*----------------------------------------*/
 /*  3.1 Header Style 1
 /*----------------------------------------*/
+
+.logo-img {
+  width: 120px;
+  height: auto;
+  padding-top: 10px;
+}
+
+
 .wt-header-height {
   position: relative;
   z-index: 99;
@@ -5159,7 +5167,7 @@ body.wt-magic-cursor #magic-cursor {
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .wt-header-area {
-    padding: 7px 20px;
+    padding: 15px 20px;
   }
 }
 
@@ -5168,7 +5176,13 @@ only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (min-width: 576px) and (max-width: 767px),
 (max-width: 767px) {
   .wt-header-area {
-    padding: 5px 0;
+    padding: 20px 0;
+  }
+
+  .logo-img {
+    width: 100px;
+    height: auto;
+
   }
 }
 
@@ -11924,8 +11938,8 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .wt-testimonial-3-arrow-box button {
-  width: 65px;
-  height: 65px;
+  width: 45px;
+  height: 45px;
   line-height: 1;
   display: flex;
   align-items: center;
@@ -11941,6 +11955,10 @@ only screen and (min-width: 576px) and (max-width: 767px),
   top: 50%;
   transform: translateY(-50%);
   z-index: 5;
+}
+
+.wt-testimonial-3-arrow-box button i {
+  font-size: 16px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -11983,6 +12001,16 @@ only screen and (min-width: 576px) and (max-width: 767px),
   .wt-testimonial-3-arrow-box button.slider-next {
     right: 0px;
   }
+
+  .wt-testimonial-3-arrow-box button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .wt-testimonial-3-arrow-box button i {
+    font-size: 14px;
+  }
+
 }
 
 .wt-testimonial-3-arrow-box button {
@@ -12324,7 +12352,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 82px 0;
+  padding: 40px 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
