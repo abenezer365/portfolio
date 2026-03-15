@@ -26,17 +26,6 @@ I believe in using the best tools for the job. This project leverages modern web
 - `blog.html`: Insights, tutorials, and tech experiments.
 - `assets/`: The engine room containing custom CSS, high-fidelity images, and interactive JS modules.
 
-## 🔧 Getting Started
-
-To view the portfolio locally:
-
-1.  **Clone the repository**:
-    ```bash
-    git clone https://github.com/abenezer365/portfolio.git
-    ```
-2.  **Open in your browser**:
-    Simply open `index.html` in any modern browser. For the best experience, use a local server (like Live Server in VS Code) to handle asset paths and smooth transitions correctly.
-
 ## 📈 Performance & SEO
 
 Every pixel is optimized:
